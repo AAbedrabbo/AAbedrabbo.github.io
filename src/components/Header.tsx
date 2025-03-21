@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
@@ -22,11 +21,11 @@ const Header: React.FC = () => {
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <h1 className="text-lg font-medium">Portfolio</h1>
+        <h1 className="text-lg font-medium">Alaa Abedrabbo</h1>
         <nav className="space-x-8 hidden md:block">
-          <a href="#about" className="text-sm hover:text-portfolio-accent transition-colors">About</a>
-          <a href="#projects" className="text-sm hover:text-portfolio-accent transition-colors">Projects</a>
-          <a href="#contact" className="text-sm hover:text-portfolio-accent transition-colors">Contact</a>
+          <a href="#about" className="text-base font-semibold hover:text-portfolio-accent transition-colors">About</a>
+          <a href="#projects" className="text-base font-semibold hover:text-portfolio-accent transition-colors">Projects</a>
+          <a href="#contact" className="text-base font-semibold hover:text-portfolio-accent transition-colors">Contact</a>
         </nav>
       </div>
     </header>

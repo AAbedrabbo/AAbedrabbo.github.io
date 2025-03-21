@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 
@@ -38,40 +37,40 @@ const ContactSection: React.FC = () => {
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mt-4">Let's Connect</h2>
           <p className="text-portfolio-muted mt-4 mb-8">
-            Feel free to reach out for collaborations or just a friendly hello
+            Feel free to reach out for collaborations or just a friendly hello. Always up for a coffee! ☕
           </p>
           
           <div className="flex items-center justify-center space-x-4 mt-8">
             <a 
-              href="https://github.com" 
+              href="https://github.com/AAbedrabbo" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="social-link"
+              className="p-3 rounded-full bg-portfolio-accent text-white hover:brightness-110 transition-all"
               aria-label="GitHub Profile"
             >
-              <Github className="w-5 h-5 text-portfolio-dark" />
+              <Github className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/alaaabedrabbo/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="social-link"
+              className="p-3 rounded-full bg-portfolio-accent text-white hover:brightness-110 transition-all"
               aria-label="LinkedIn Profile"
             >
-              <Linkedin className="w-5 h-5 text-portfolio-dark" />
+              <Linkedin className="w-6 h-6" />
             </a>
             <a 
-              href="mailto:your.email@example.com" 
-              className="social-link"
+              href="mailto:alaa.abedrabbo@gmail.com" 
+              className="p-3 rounded-full bg-portfolio-accent text-white hover:brightness-110 transition-all"
               aria-label="Email me"
             >
-              <Mail className="w-5 h-5 text-portfolio-dark" />
+              <Mail className="w-6 h-6" />
             </a>
           </div>
           
           <div className="mt-16 pt-8 border-t border-portfolio-border">
             <p className="text-sm text-portfolio-muted">
-              © {new Date().getFullYear()} · Designed & Built with care
+              © {new Date().getFullYear()} · Designed & Built with care (and AI)
             </p>
           </div>
         </div>

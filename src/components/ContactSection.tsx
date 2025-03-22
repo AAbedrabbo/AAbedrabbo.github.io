@@ -81,7 +81,7 @@ const ContactSection: React.FC = () => {
           
           <div className="mt-16 pt-8 border-t border-portfolio-border">
             <p className="text-sm text-portfolio-muted">
-              © {new Date().getFullYear()} · Designed & Built with care (and AI)
+              © {new Date().getFullYear()} · Designed & Built by human + AI
             </p>
           </div>
         </div>

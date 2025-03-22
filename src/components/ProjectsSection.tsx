@@ -43,7 +43,7 @@ const ProjectsSection: React.FC = () => {
               🤖
             </div>
             <p className="text-portfolio-dark leading-relaxed">
-            I'm currently a Product Manager at EdTech scale-up, <a href="https://www.cambridgespark.com" target="_blank" rel="noopener noreferrer">Cambridge Spark</a>, and have been for over a year now. At Cambridge Spark, I have the privilege of looking after both a portfolio of curriculum products, as well as an AI product—our LLM-based learning assistant—that all our learners have access to on our platform, EDUKATE.AI.
+            I'm currently a Product Manager at EdTech scale-up, <a href="https://www.cambridgespark.com" target="_blank" rel="noopener noreferrer">Cambridge Spark</a>, and have been for over a year now. At Cambridge Spark, I have the privilege of looking after both a portfolio of curriculum products, as well as an AI product—our LLM-based learning assistant—that all our learners have access to on our platform, <a href="https://edukate.ai/" target="_blank" rel="noopener noreferrer">EDUKATE.AI</a> .
             </p>
           </div>
           

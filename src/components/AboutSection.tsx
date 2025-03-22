@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 
 const AboutSection: React.FC = () => {
@@ -40,7 +39,7 @@ const AboutSection: React.FC = () => {
             Passionate About Building Excellent Products
           </h1>
           <p className="text-lg text-portfolio-muted max-w-2xl mx-auto opacity-0 animate-fade-in-up-delay-2">
-            Hi! I'm Alaa, a Product Manager, with a background in Engineering and Data Science, and with a little less than a decade of experience in the Data and AI Education space.
+            Hi! I'm Alaa, I'm a Product Manager with a background in Engineering and Data Science, and I've spent the majority of my career in the Data and AI Education space.
           </p>
           <p className="text-lg text-portfolio-muted max-w-2xl mx-auto opacity-0 animate-fade-in-up-delay-2">
             Looking to continually learn and apply myself to serve others as best I can.  

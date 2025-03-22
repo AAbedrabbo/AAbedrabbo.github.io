@@ -51,6 +51,17 @@ const ContactSection: React.FC = () => {
               <Github className="w-6 h-6" />
             </a>
             <a 
+              href="https://gitlab.com/alaa.abedrabbo" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-portfolio-accent text-white hover:brightness-110 transition-all"
+              aria-label="GitLab Profile"
+            >
+              <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51a.42.42 0 0 1 .82 0l2.44 7.51h8.1l2.44-7.51a.42.42 0 0 1 .82 0l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"/>
+              </svg>
+            </a>
+            <a 
               href="https://www.linkedin.com/in/alaaabedrabbo/" 
               target="_blank" 
               rel="noopener noreferrer"

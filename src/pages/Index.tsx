@@ -1,6 +1,4 @@
-
 import React, { useEffect } from 'react';
-import AnimatedBackground from '@/components/AnimatedBackground';
 import Header from '@/components/Header';
 import AboutSection from '@/components/AboutSection';
 import ProjectsSection from '@/components/ProjectsSection';
@@ -17,7 +15,7 @@ const Index: React.FC = () => {
           const targetElement = document.querySelector(targetId);
           if (targetElement) {
             window.scrollTo({
-              top: targetElement.getBoundingClientRect().top + window.scrollY - 80,
+              top: targetElement.getBoundingClientRect().top + window.scrollY - 100,
               behavior: 'smooth'
             });
           }
@@ -27,8 +25,7 @@ const Index: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen relative overflow-hidden">
-      <AnimatedBackground />
+    <div className="min-h-screen bg-white antialiased">
       <Header />
       <main>
         <AboutSection />

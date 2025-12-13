@@ -1,31 +1,18 @@
-import React, { useEffect, useState } from 'react';
-import { cn } from '@/lib/utils';
+import React from 'react';
 
 const Header: React.FC = () => {
-  const [scrolled, setScrolled] = useState(false);
-  
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
-    };
-    
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   return (
-    <header 
-      className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4",
-        scrolled ? "glass-effect shadow-sm" : "bg-transparent"
-      )}
-    >
-      <div className="container mx-auto px-4 flex justify-between items-center">
-        <h1 className="text-lg font-medium">Alaa Abedrabbo</h1>
-        <nav className="space-x-8 hidden md:block">
-          <a href="#about" className="text-base font-semibold hover:text-portfolio-accent transition-colors">About</a>
-          <a href="#projects" className="text-base font-semibold hover:text-portfolio-accent transition-colors">Projects</a>
-          <a href="#contact" className="text-base font-semibold hover:text-portfolio-accent transition-colors">Contact</a>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
+      <div className="container mx-auto px-8 py-5 max-w-4xl">
+        <nav className="flex justify-between items-center">
+          <a href="#about" className="text-base font-medium text-gray-900 hover:text-gray-600 transition-colors">
+            Alaa Abedrabbo
+          </a>
+          <div className="flex gap-8">
+            <a href="#about" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">About</a>
+            <a href="#experience" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">Experience</a>
+            <a href="#contact" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">Contact</a>
+          </div>
         </nav>
       </div>
     </header>

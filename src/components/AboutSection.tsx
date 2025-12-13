@@ -7,7 +7,7 @@ const AboutSection: React.FC = () => {
         <div className="space-y-8">
           <div className="space-y-4">
             <h1 className="text-5xl md:text-6xl font-light text-gray-900 leading-tight tracking-tight">
-              Product Manager
+              Product Manager, Data scientist, Teacher
             </h1>
             <div className="h-px w-16 bg-gray-300"></div>
           </div>

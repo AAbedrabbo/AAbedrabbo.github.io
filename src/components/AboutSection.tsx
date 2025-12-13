@@ -14,7 +14,7 @@ const AboutSection: React.FC = () => {
           
           <div className="space-y-5 max-w-2xl">
             <p className="text-lg text-gray-600 leading-relaxed font-light">
-              Hi! I'm Alaa, a Product Manager with a background in Engineering and Data Science. I've spent the majority of my career in the Data and AI Education space.
+              Hi! I'm Alaa, a Product Manager with a BEng in Systems Engineering and a MSc in Data Analytics. I've spent the majority of my career in the Data and AI Education space.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed font-light">
               Looking to continually learn and apply myself to serve others as best I can.

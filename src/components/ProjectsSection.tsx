@@ -10,7 +10,7 @@ const ProjectsSection: React.FC = () => {
           <div className="space-y-3">
             <h3 className="text-xl font-normal text-gray-900">Product Manager</h3>
             <p className="text-base text-gray-600 leading-relaxed font-light">
-              I'm currently a Product Manager at EdTech scale-up, <a href="https://www.cambridgespark.com" target="_blank" rel="noopener noreferrer" className="text-gray-900 underline hover:no-underline transition-colors">Cambridge Spark</a>, and have been for over a year now. At Cambridge Spark, I have the privilege of looking after both a portfolio of curriculum products, as well as an AI product—our LLM-based learning assistant—that all our learners have access to on our platform, <a href="https://edukate.ai/" target="_blank" rel="noopener noreferrer" className="text-gray-900 underline hover:no-underline transition-colors">EDUKATE.AI</a>.
+              I'm currently a Product Manager at EdTech scale-up, <a href="https://www.cambridgespark.com" target="_blank" rel="noopener noreferrer" className="text-gray-900 underline hover:no-underline transition-colors">Cambridge Spark</a>, and have been for close to two years now. At Cambridge Spark, I have the privilege of looking after both a portfolio of curriculum products, as well as an AI product—our LLM-based learning assistant—that all our learners have access to on our platform, <a href="https://edukate.ai/" target="_blank" rel="noopener noreferrer" className="text-gray-900 underline hover:no-underline transition-colors">EDUKATE.AI</a>.
             </p>
           </div>
           

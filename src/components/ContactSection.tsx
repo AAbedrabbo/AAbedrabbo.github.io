@@ -9,7 +9,7 @@ const ContactSection: React.FC = () => {
           <div className="space-y-4">
             <h2 className="text-3xl font-light text-gray-900">Get in Touch</h2>
             <p className="text-base text-gray-600 font-light max-w-xl">
-              Feel free to reach out for collaborations or just a friendly hello.
+              Would love to chat over a coffee!
             </p>
           </div>
           

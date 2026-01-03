@@ -15,7 +15,7 @@ const ProjectsSection: React.FC = () => {
           </div>
           
           <div className="space-y-3">
-            <h3 className="text-xl font-normal text-gray-900">Education & Content</h3>
+            <h3 className="text-xl font-normal text-gray-900">Data and AI education</h3>
             <p className="text-base text-gray-600 leading-relaxed font-light">
               Before Cambridge Spark, I spent 5 years also in Education, at <a href="https://www.decoded.com" target="_blank" rel="noopener noreferrer" className="text-gray-900 underline hover:no-underline transition-colors">Decoded</a>, where I did a mixture of creating content, teaching workshops, and managing our courses and content for a variety of audiences—from folks who needed to up-skill in Python and machine learning, to Leadership and C-Suite audiences who wanted to learn more about data and AI.
             </p>

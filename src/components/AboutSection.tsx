@@ -14,13 +14,13 @@ const AboutSection: React.FC = () => {
           
           <div className="space-y-5 max-w-2xl">
             <p className="text-lg text-gray-600 leading-relaxed font-light">
-              Hi! I'm Alaa, a Product Manager with a BEng in Systems Engineering and a MSc in Data Analytics. I've spent the majority of my career in the Data and AI Education space.
+            Hi! I'm Alaa, I'm an Engineer turned Data scientist, turned teacher, turned Product manager. Currently working in the EdTech space.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed font-light">
-              Looking to continually learn and apply myself to serve others as best I can.
+              Always looking to learn and apply myself to serve others as best I can.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed font-light">
-              If there's anything I can do for you, please reach out!
+            If you'd like to connect or collaborate, or just chat over a coffee, please reach out!
             </p>
           </div>
         </div>
